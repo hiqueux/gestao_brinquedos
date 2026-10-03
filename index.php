@@ -27,7 +27,7 @@ $resultado = $stmt->get_result();
     <h1>GESTÃO DE BRINQUEDOS</h1>
     <h2>Cadastrar Brinquedo</h2>
 
-    <form action="public/cadastrar.php" method="POST">
+    <form action="public/cadastro.php" method="POST">
 
         <label for="nome">Nome:</label>
         <input type="text" id="nome" name="nome" required>
